@@ -1,73 +1,125 @@
-# Welcome to your Lovable project
+✅ FINAL PROMPT — HyperIOTTek.com AI IoT Dashboard (Glass UI, Manrope, 8 Sections)
 
-## Project info
+**"Create a complete, responsive AI-powered IoT dashboard UI for HyperIOTTek.com using React + Tailwind + React Router + Framer Motion.
+Follow a glass-effect futuristic style similar to the reference image of HyperIOTTek.com.
+Use the color palette:
+• Neon Green: #BED754
+• Deep Red: #C72C41
+• Soft Coral: #EF9F9F
+• Carbon Black: #191919
+Primary background is dark (#191919), and glass panels must have transparent black with subtle neon glow borders.
+Use Manrope as the only font across all pages.
+Everything must be fully responsive for desktop, tablet, and mobile.
+All components should use smooth animations, hover effects, glass blur, transparency, and glowing UI like the reference.
 
-**URL**: https://lovable.dev/projects/3fa38483-5d55-40b6-ba5f-6331a8f078a9
+——————————————
+🔐 Authentication Pages Required (Glass UI)
+Create:
 
-## How can I edit this code?
+Login Page
 
-There are several ways of editing your application.
+Signup Page
 
-**Use Lovable**
+Both must include:
+• Split layout with glass form card
+• Inputs with glow border on focus
+• Manrope font
+• Google Sign-in button (with icon)
+• Smooth Framer Motion page transitions
+• Background with dark gradient + neon glow particles similar to HyperIOTTek
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3fa38483-5d55-40b6-ba5f-6331a8f078a9) and start prompting.
+——————————————
+📊 Dashboard Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+After login, load a full dashboard layout with:
 
-**Use your preferred IDE**
+Sidebar (Glass UI) – 8 Sections
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Create a left sidebar with icons + labels + neon glow hover effects.
+Include these 8 sections:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Overview (Main stats + IoT summary + device count + automation logs)
 
-Follow these steps:
+Devices (List of connected devices + status + add device UI)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Automation (AI rule builder preview + routine status)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Analytics (Charts: device usage, automation logs, uptime)
 
-# Step 3: Install the necessary dependencies.
-npm i
+Monitoring (Real-time device health + predictive maintenance + alerts)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Workflows (Automation flows preview + step visualizer)
 
-**Edit a file directly in GitHub**
+Settings (User profile, account, notification settings)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Support (Help, documentation links, contact form)
 
-**Use GitHub Codespaces**
+Sidebar must:
+• Collapse on tablet
+• Slide-in on mobile
+• Use neon green (#BED754) glow highlights
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+——————————————
+📍 Dashboard Header
+• Search bar
+• Notification bell
+• User avatar dropdown
+• Floating glass style
 
-## What technologies are used for this project?
+——————————————
+📂 Each Page Should Include
+• Glass cards
+• Dark backgrounds
+• Neon glowing borders (green & red based on importance)
+• Smooth animations
+• Responsive grid layouts
+• Minimalistic iconography (Lucide icons preferred)
 
-This project is built with:
+——————————————
+💡 Design & UI Requirements
+• Full glassmorphism:
+ – backdrop-blur
+ – transparency (10–20%)
+ – soft neon glows
+• Match the futuristic IoT theme of HyperIOTTek
+• Use animated dotted lines, small nodes, or glowing particles (optional)
+• Auto-resize and adapt to all screens
+• Device cards with subtle hover scaling
+• Charts using Recharts or mock SVG charts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+——————————————
+🖥️ Example Components to Create (Front-End Only)
+• Device online/offline indicator
+• AI routine suggestion card
+• Real-time logs UI
+• Automation timeline
+• Alerts notification drawer
+• Device add modal (mock only)
 
-## How can I deploy this project?
+——————————————
+⚙️ Technical Stack Requirements
+• React + Vite
+• Tailwind CSS
+• Framer Motion
+• React Router
+• Lucide Icons
+• Recharts (for analytics)
+• No backend required (mock data only)
 
-Simply open [Lovable](https://lovable.dev/projects/3fa38483-5d55-40b6-ba5f-6331a8f078a9) and click on Share -> Publish.
+——————————————
+🎯 Final Output Must Include:
+• Login page
+• Signup page
+• Sidebar layout
+• Header
+• All 8 dashboard pages
+• Glass UI components
+• Neon IoT theme
+• Mobile responsiveness
+• Animations & interactions
+• Proper color palette (#BED754, #C72C41, #EF9F9F, #191919)
+• Manrope font imported globally
 
-## Can I connect a custom domain to my Lovable project?
+——————————————
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Generate the complete front-end UI with routing, components, pages, sidebar, authentication screens, and dashboard sections using this design system."**
